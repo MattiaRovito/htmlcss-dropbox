@@ -10,6 +10,88 @@
 body
 {
     font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+
+}
+
+
+
+/* header */
+
+
+
+
+.box-menu
+{
+    background-color: white;
+    height: 80px;
+    position: relative;
+    padding: 10px 20px;
+}
+
+
+#logo
+{
+    height: 26px;
+    position: absolute;
+    top: 30%;
+}
+
+.lista-sx nav
+{
+    position: absolute;
+    top: 34%;
+    left: 15%;
+}
+
+.lista-dx nav
+{
+    position: absolute;
+    top: 34%;
+    right: 0%;
+}
+
+.lista-sx nav ul li
+{
+    display: inline-block;
+}
+
+.lista-dx nav ul li
+{
+    display: inline-block;
+}
+
+.lista-sx nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding-right: 25px;
+}
+
+.lista-dx nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding-right: 25px;
+}
+
+
+.menu-hover nav ul li a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.jumbotron
+{
+    height: 741px;
+    background-color: #b4d0e7;
 }
 
 
@@ -31,7 +113,10 @@ body
 
 
 
-
-
-
 /* debug */
+/* .debug
+{
+    height: 821px;
+    width: 100%;
+    background-color: aquamarine;
+} */
