@@ -10,6 +10,7 @@
 body
 {
     font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -103,14 +104,34 @@ body
     font-weight: bolder;
 }
 
+.testo-jumbo
+{
+    width: 30%;
+    line-height: 1.6;
+    padding: 0 40px;
+    font-size: 18px;
+}
+
 .immagine-jumbo
 {
     position: absolute;
     top: 35%;
     right: 1%;
-
 }
 
+.button 
+{
+    background-color: #0061ff;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    bottom: 25%;
+    left: 3%;
+    cursor: pointer;
 
 
 
