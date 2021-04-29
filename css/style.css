@@ -164,6 +164,21 @@ body
 
 
 
+/* main */
+main
+{
+    margin-top: 100px;
+    width: 100%;
+    padding: 0 10%;
+}
+
+main div h2
+{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
 
 
 
@@ -178,3 +193,9 @@ body
     width: 100%;
     background-color: aquamarine;
 } */
+
+.debug
+{
+    background-color: red;
+    height: 500px;
+}
