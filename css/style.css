@@ -90,12 +90,26 @@ body
 
 .jumbotron
 {
+    position: relative;
     height: 741px;
     background-color: #b4d0e7;
 }
 
+.jumbotron h1
+{
+    font-size: 76px;
+    padding: 40px 40px;
+    width: 100%;
+    font-weight: bolder;
+}
 
+.immagine-jumbo
+{
+    position: absolute;
+    top: 35%;
+    right: 1%;
 
+}
 
 
 
