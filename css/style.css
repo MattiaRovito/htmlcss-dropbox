@@ -37,6 +37,11 @@ body
     top: 30%;
 }
 
+#logo:hover
+{
+    cursor: pointer;
+}
+
 .lista-sx nav
 {
     position: absolute;
@@ -150,6 +155,11 @@ body
     bottom: 10%;
     left: 3%;
     font-size: 40px;
+}
+
+#arrow:hover
+{
+    cursor: pointer;
 }
 
 
