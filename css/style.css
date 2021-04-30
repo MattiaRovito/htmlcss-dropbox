@@ -224,7 +224,7 @@ h2
     width: calc(100% / 3 - 40px);
     margin: 0 20px;
     padding: 0 20px;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 
 }
 
@@ -245,6 +245,7 @@ h2
 h3
 {
     font-size: 25px;
+    margin-top: 20px;
 }
 
 .col1 h3, h4, .mensilità
@@ -266,22 +267,72 @@ h3
 
 .hr-corto
 {
-    width: 30px;
-
+    width: 60px;
+    margin-top: 30px;
 }
+
+hr
+{
+    color: #d0d0d3;
+}
+
+
+.piano-abbonamento
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.lista
+{
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.lista ul li
+{
+    list-style: none;
+}
+
+
+.tema-principale i, .folder i, .pen i
+{
+    color: black;
+}
+
+#spunta
+{
+    color: #0061ff;
+}
+
+
+
+.enterprise
+{
+    margin-top: 40px;
+    border: 1px solid #d0d0d3;
+}
+
+
+
+
+
+
+
+
 
 
 
 /* debug */
-.debug .container
+/* .debug .container
 {
     height: 500px;
     background-color: red;
-}
-
+} */
+/* 
 .debug .col1
 {
     background-color: lightblue;
     height: 500px;
     
-}
+}  */
