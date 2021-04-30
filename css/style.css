@@ -22,7 +22,7 @@
 
 .float-right
 {
-    float:right
+    float:right;
 }
 
 
@@ -70,7 +70,7 @@
 
 .distanza
 {
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 
@@ -213,15 +213,62 @@ h2
     margin-bottom: 30px;
 }
 
+.row
+{
+    width: 1100px;
+    margin-top: 20px;
+}
 
+.col1
+{
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+    padding: 0 20px;
+    border: 1px solid black;
 
+}
 
+.col1 i
+{
+    color: white;
+    margin-right: 5px;
+    line-height: 50px;
 
+}
 
+.align-left
+{
+    text-align: left;
+    padding: 10px 10px;
+}
 
+h3
+{
+    font-size: 25px;
+}
 
+.col1 h3, h4, .mensilità
+{
+    margin-bottom: 15px;
+}
 
+.mensilità
+{
+    color: grey;
+    font-size: 14px;
+}
 
+.tema-principale
+{
+    text-align:center;
+    margin-top: 10px;
+}
+
+.hr-corto
+{
+    width: 30px;
+
+}
 
 
 
@@ -230,4 +277,11 @@ h2
 {
     height: 500px;
     background-color: red;
+}
+
+.debug .col1
+{
+    background-color: lightblue;
+    height: 500px;
+    
 }
