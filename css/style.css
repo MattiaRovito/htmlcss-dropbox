@@ -68,6 +68,11 @@
     font-family:'Roboto', sans-serif;
 }
 
+.distanza
+{
+    padding-right: 30px;
+}
+
 
 
 /* header */
@@ -86,6 +91,7 @@ header
     z-index:100;
     top:0;
     left:0;
+
 }
 
 
@@ -132,7 +138,7 @@ header
 .jumbotron{
     margin-top:80px;
     padding:50px;
-    background-color: #b4d0e7;
+    background-color: #b4d0e7;    margin-bottom: 150px;
 }
 
 .jumbotron .col-dx{
@@ -186,3 +192,42 @@ h1
     color: white;
 }
 
+
+
+/* main */
+
+.container
+{
+    width: 90%;
+    margin: 0 60px;
+    padding: 70px 70px;
+    text-align: center;
+}
+
+
+h2
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+.debug .container
+{
+    height: 500px;
+    background-color: red;
+}
