@@ -40,8 +40,16 @@
     color: white;
 }
 
+.btn-white
+{
+    background-color: white;
+    border: 1px solid black;
+}
 
-
+.btn-white a
+{
+    color: black;
+}
 
 .btn-blue:hover
 {
@@ -362,8 +370,31 @@ hr
 
 
 
+/* partner-dropbox */
 
 
-/* debug */
+.partner-dropbox
+{
+    margin-top: 100px;
+    width: 79%;
+    margin-left: 11%;
+}
+
+.prt-drop-sx
+{
+    width: 57%;
+}
+
+.prt-drop-dx
+{
+    width: 38%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
 
 
+
+.prt-drop-dx p
+{
+    margin-top: 20px;
+}
