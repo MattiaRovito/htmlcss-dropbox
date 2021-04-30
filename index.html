@@ -87,31 +87,34 @@
             
     
     <!-- main -->
-    <main class="debug">
+    <main>
         <!-- section business -->
-        <section class="container clearfix">
+        <section class="container">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
-            <form action="/action_page.php">
-                <div class="float-left main-font">
-                    <input type="radio" id="" name="gender" value="">
-                    Fatturazione mensile
-            
-                <div class="float-left main-font distanza">
-                    <input type="radio" id="" name="gender" value="">
-                    Fatturazione annuale
+            <div class="clearfix">
+                <form action="/action_page.php">
+                    
+                    <div class="float-left main-font distanza">
+                        <input type="radio" id="" name="gender" value="">
+                        Fatturazione mensile
+                    </div>
+                
+                    <div class="float-left main-font">
+                        <input type="radio" id="" name="gender" value="">
+                        Fatturazione annuale
 
-                </div>
-            </form>
-
+                    </div>
+                </form>
+            </div>  
             <!-- inizio colonne -->
             <div class="row clearfix">
                 <div class="col1 float-left align-left">
 
                     <div class="tema-principale">
-                        <i class="fas fa-user-alt"></i>Singolo
+                        <i class="far fa-user"></i>Singolo
                     </div>
 
-                    <hr>
+
 
                     <h3>Professional</h3>
                     
@@ -119,8 +122,8 @@
                     
                     <span class="mensilità">/mese</span>
                     
-                    <div class="tema-principale">
-                        <i class="fas fa-user-alt"></i>1 utente
+                    <div>
+                        <i class="far fa-user"></i>1 utente
                     </div>
                     
                     <div class="folder">
@@ -159,7 +162,7 @@
                         <i class="far fa-list-alt"></i>Team
                     </div>
 
-                    <hr>
+                
 
                     <h3>Standard</h3>
                     
@@ -167,8 +170,8 @@
                     
                     <span class="mensilità">/ utente / mese, a partire da 3 utenti </span>
                     
-                    <div class="tema-principale">
-                        <i class="fas fa-user-plus"></i>3+ utenti
+                    <div>
+                        <i class="far fa-user-circle"></i>3+ utenti
                     </div>
                     
                     <div class="folder">
@@ -208,7 +211,7 @@
                         <i class="far fa-list-alt"></i>Team
                     </div>
 
-                    <hr>
+                    
 
                     <h3>Advanced</h3>
                     
@@ -216,8 +219,8 @@
                     
                     <span class="mensilità">/ utente / mese, a partire da 3 utenti </span>
                     
-                    <div class="tema-principale">
-                        <i class="fas fa-user-plus"></i>3+ utenti
+                    <div>
+                        <i class="far fa-user-circle"></i>3+ utenti
                     </div>
                     
                     <div class="folder">
@@ -252,26 +255,35 @@
             </div>
             <!-- fine colonne -->
 
-            <div class="enterprise container">
-                
-                <div class="tema-principale">
-                    <i class="far fa-list-alt"></i>Team
-                </div>
-                
-                <div>
-                    <h3>Enterprise</h3>
-                    
-                    <h4>Contatta l'ufficio vendite per i prezzi</h4>
-
-                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
-                        Contatta l'ufficio vendite</p>
-                    
-                </div>
-            </div>
+ 
 
         </section>
         <!-- fine section business -->
+        
 
+        <section class="container-enterprise">
+            <div>
+                
+                <div class="team-enterprise">
+                    <i class="far fa-list-alt"></i>Team
+                </div>
+                <div class="enterprise">
+                    <h3>Enterprise</h3>
+                    
+                    <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                    <div class="soluzioni">
+                        Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
+                        Contatta l'ufficio vendite
+                    </div>     
+                </div>
+                <span class="btn btn-blue inline-block main-font">
+                    <a class="free-button" href="#">
+                        Contatta l'ufficio vendite
+                    </a>
+                </span>
+
+            </div>
+        </section>
 
 
 
