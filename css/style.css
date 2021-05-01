@@ -87,10 +87,6 @@ h2, h3, h4, p, span
 }
 
 
-/* a:visited{
-    color: black;
-} */
-
 a:visited
 {
     color: black;
@@ -479,18 +475,6 @@ hr
 }
 
 
-.col-fot
-{
-    width: calc(100% / 5);
-}
-
-.col-flot nav ul li a
-{
-    text-decoration: none;
-    color: white;
-}
-
-
 
 
 
@@ -521,7 +505,26 @@ hr
     background-color: #000000;
     margin-top: 100px;
     padding: 150px 150px;
+    position: relative;
 }
+
+
+
+.col-fot
+{
+    width: calc(100% / 5 - 20px);
+    margin: 0 10px;
+}
+
+.col-flot nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 
 .col-fot h4
 {
@@ -543,4 +546,30 @@ hr
 .col-fot nav ul li
 {
     margin-top: 8px;
+}
+
+#language
+{
+    position: absolute;
+    bottom: 24%;
+    left: 12%;
+    border-top: 1px solid #767676;
+    line-height: 78px;
+}
+
+#language a
+{
+    color: #767676;
+    text-decoration-line: none;
+}
+
+#language i:first-child
+{
+    color: #bdc4c9;
+}
+
+
+#language span
+{
+    margin:0 5px;
 }
