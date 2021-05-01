@@ -91,6 +91,15 @@ a:visited{
     color: black;
 }
 
+
+.partner-dropbox, .operazioni-dropbox, .team-drop
+{
+    margin-top: 100px;
+    width: 79%;
+    margin-left: 11%;
+}
+
+
 /* header */
 
 header
@@ -382,12 +391,6 @@ hr
 /* partner-dropbox */
 
 
-.partner-dropbox, .operazioni-dropbox
-{
-    margin-top: 100px;
-    width: 79%;
-    margin-left: 11%;
-}
 
 .prt-drop-sx
 {
@@ -429,4 +432,21 @@ hr
 .col2 h3
 {
     margin-bottom: 20px;
+}
+
+
+
+
+/* team-drop */
+.team-drop h2
+{
+    text-align: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.team-drop a
+{
+    font-size: 20px;
+    color: #0061ff;
 }
