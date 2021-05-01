@@ -92,6 +92,12 @@ a:visited
     color: black;
 }
 
+.btn-blue a:visited
+{
+    color: white;
+}
+
+
 .buy-here
 {
     color: #0061ff;
