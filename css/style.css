@@ -46,6 +46,12 @@
     border: 1px solid black;
 }
 
+.btn-white-noborder
+{
+    background-color: white;
+    padding: 12px 26px;
+}
+
 .btn-white a
 {
     color: black;
@@ -191,7 +197,7 @@ header
 .jumbotron{
     margin-top:80px;
     padding:50px;
-    background-color: #b4d0e7;   
+    background-color: #b4d0e7;
     margin-bottom: 100px;
 }
 
@@ -215,7 +221,7 @@ h1
 
 .col-dx{
     width:73%;
-} 
+}
 
 
 .arrow
@@ -483,35 +489,41 @@ hr
 
 /* all-boxes */
 
-
-
-.all-boxes
+.top-boxes
 {
-    width: 90%;
-    margin: 0 60px;
-    padding: 70px 70px;
-    text-align: center;
+    background-color: red;
+    padding: 100px 400px 80px 150px;
+    margin-top:40px;
+    width: 100%;
 }
+
+
+
 
 
 .bottom-boxes
 {
     background-color: #b4d0e7;
-    padding: 100px 300px 100px 100px;
-    margin-top:80px;
+    padding: 100px 400px 80px 150px;
     margin-bottom: 100px;
-    width: 1170px;
-    text-align: center;
+    width: 100%;
+    position: relative;
+
 }
 
 .bottom-boxes h2
 {
     color: #61082b;
-    font-size: 52px;
+    font-size: 48px;
+    text-align: left;
 }
 
-
-
+.btn-white-noborder
+{
+    position: absolute;
+    top: 33%;
+    right: 10%;
+}
 
 
 /* debug
