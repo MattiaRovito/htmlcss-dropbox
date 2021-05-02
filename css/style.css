@@ -408,16 +408,18 @@ hr
 
 .team-enterprise
 {
-    font-size: 18px;
-    padding: 0 20px;
-    text-align: center;
+font-size: 18px;
+padding: 10px 20px;
+text-align: center;
+margin-top: 10px;
+border: 1px solid #d0d0d3;
 }
 
 .container-enterprise span
 {
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 20%;
 }
 
 
