@@ -145,7 +145,6 @@ header
     z-index:100;
     top:0;
     left:0;
-
 }
 
 
@@ -482,9 +481,40 @@ hr
 
 
 
+/* all-boxes */
 
 
 
+.all-boxes
+{
+    width: 90%;
+    margin: 0 60px;
+    padding: 70px 70px;
+    text-align: center;
+}
+
+
+.bottom-boxes
+{
+    background-color: #b4d0e7;
+    padding: 100px 300px 100px 100px;
+    margin-top:80px;
+    margin-bottom: 100px;
+    width: 1170px;
+    text-align: center;
+}
+
+.bottom-boxes h2
+{
+    color: #61082b;
+    font-size: 52px;
+}
+
+
+
+
+
+/* debug
 
 
 
