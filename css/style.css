@@ -650,29 +650,25 @@ border-bottom: 1px solid #d0d0d3;
 {
     border-top: 1px solid #d0d0d3;
     list-style: none;
-    line-height: 80px;
+    line-height: 50px;
 }
+
+
 
 .faq-span
 {
     list-style: none;
     color: #828f9a;
-    font-size: 20px;
+    font-size: 20px; 
     display: none;
     text-decoration: none;
     margin-bottom: 20px;
-
 }
 
-.dropdown {
-    display: inline-block;
-  }
-
-.dropdown:hover .faq-span {
+.clearfix:hover .faq-span
+{
     display: block;
-  }
-
-
+}
 
 
 .faq ul li:last-child
