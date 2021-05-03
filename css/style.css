@@ -133,6 +133,19 @@ a:visited
     margin-left: 11%;
 }
 
+/* chat fixed */
+#chat-fixed
+{
+    position: fixed;
+    z-index: 100;
+    bottom: -3%;
+    right: 1%;
+}
+
+#chat-fixed img
+{
+    height: 50px;
+}
 
 
 /* header */
