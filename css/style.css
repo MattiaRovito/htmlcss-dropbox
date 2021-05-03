@@ -502,17 +502,22 @@ border-bottom: 1px solid #d0d0d3;
     width: 30%;
 }
 
+
+
+
 .img-col
 {
     width: 49%;
+    height: 190px;;
     padding: 50px;
     vertical-align: middle;
+    object-fit: contain;
 }
 
 .img-green
 {
-    background-color: #92d0cb;
-    background-size: contain;
+    background-color: #a2d39b;
+    border: 8px solid #d0e9cd;
 }
 
 .img-burgundy
@@ -530,6 +535,25 @@ border-bottom: 1px solid #d0d0d3;
     background-color: #ff1c1c;
 }
 
+.img-red
+{
+    background-color: #d5001f;
+}
+
+.img-lightbluish
+{
+    background-color: #b4d0e7;
+}
+
+.img-blue
+{
+    background-color: #0d2481;
+}
+
+.img-yellow
+{
+    background-color: #ffd830;
+}
 
 
 .middle-col
