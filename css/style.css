@@ -59,7 +59,7 @@
 
 .btn-blue:hover
 {
-    background-color: rgba (0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0.4);
 }
 
 
@@ -288,9 +288,8 @@ h2
 {
     width: calc(100% / 3 - 40px);
     margin: 0 20px;
-    padding: 0 20px;
     border: 1px solid #d0d0d3;
-
+    text-align: left;
 }
 
 .col1 i
@@ -299,10 +298,9 @@ h2
     line-height: 50px;
 }
 
-.align-left
+.padding-text
 {
-    text-align: left;
-    padding: 10px 10px;
+    padding-left: 20px;
 }
 
 h3
@@ -325,7 +323,7 @@ h3
 .tema-principale
 {
     text-align:center;
-    border: 1px solid  #d0d0d3;
+    border-bottom: 1px solid  #d0d0d3;
 }
 
 .hr-corto
@@ -359,7 +357,7 @@ hr
 
 .lista ul
 {
-    height: 250px;
+    height: 270px;
 }
 
 
@@ -378,7 +376,6 @@ hr
     border: 1px solid #d0d0d3;
     width: 79%;
     margin-left: 11%;
-    padding: 10px 20px;
     position:relative;
 }
 
@@ -399,7 +396,10 @@ hr
     font-size: 20px;
 }
 
-
+.enterprise
+{
+    padding-left: 40px;
+}
 
 .soluzioni
 {
@@ -412,7 +412,7 @@ font-size: 18px;
 padding: 10px 20px;
 text-align: center;
 margin-top: 10px;
-border: 1px solid #d0d0d3;
+border-bottom: 1px solid #d0d0d3;
 }
 
 .container-enterprise span
@@ -493,15 +493,50 @@ border: 1px solid #d0d0d3;
 
 .top-boxes
 {
-    background-color: red;
-    padding: 100px 400px 80px 150px;
     margin-top:40px;
-    width: 100%;
+}
+
+
+.aside-col
+{
+    width: 30%;
+}
+
+.img-col
+{
+    width: 49%;
+    padding: 50px;
+    vertical-align: middle;
+}
+
+.img-green
+{
+    background-color: #92d0cb;
+    background-size: contain;
+}
+
+.img-burgundy
+{
+    background-color: #61082b;
+}
+
+.img-lightblue
+{
+    background-color: #0093ce;
+}
+
+.img-orange
+{
+    background-color: #ff1c1c;
 }
 
 
 
-
+.middle-col
+{
+    width: 40%;
+    background-color: black;
+}
 
 .bottom-boxes
 {
@@ -528,7 +563,7 @@ border: 1px solid #d0d0d3;
 }
 
 
-/* debug
+
 
 
 
