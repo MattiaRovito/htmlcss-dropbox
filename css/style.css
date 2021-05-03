@@ -658,10 +658,19 @@ border-bottom: 1px solid #d0d0d3;
     list-style: none;
     color: #828f9a;
     font-size: 20px;
-    /* display: none; */
+    display: none;
     text-decoration: none;
     margin-bottom: 20px;
+
 }
+
+.dropdown {
+    display: inline-block;
+  }
+
+.dropdown:hover .faq-span {
+    display: block;
+  }
 
 
 
@@ -678,18 +687,6 @@ border-bottom: 1px solid #d0d0d3;
 }
 
 
-/* .faq ul li a p:last-child
-{
-    font-size: 16px;
-    line-height: none;
-    color: #a7b0b8;
-} */
-
-
-/* .float-right i:hover .faq-span
-{
-    display: block;
-} */
 
 
 
